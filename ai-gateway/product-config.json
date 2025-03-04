@@ -17,6 +17,15 @@
             "trigger_blackduck": true,
             "do-build": false,
             "keep_git": true
+        },
+        "ai-gateway/toybuilds.xml": {
+            "production": true,
+            "interval": 1240,
+            "restricted": false,
+            "start_build": 1,
+            "trigger_blackduck": false,
+            "do-build": false,
+            "keep_git": true
         }
     }
 }
