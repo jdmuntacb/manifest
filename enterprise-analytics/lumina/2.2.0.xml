@@ -55,7 +55,7 @@
   <project name="sigar" revision="b1718d5c99a2bd37d97fe2c96eb0fd33a06461af" groups="kv" />
   <project name="subjson" revision="9ad6776cafbffed50a08590b675a106102d61471" groups="bsl,kv" />
   <project name="testrunner" revision="3de86c525f33c06ff8cf379a559e96f8f5b96a84" />
-  <project name="tlm" remote="mblow" revision="854ec55e44f7d31a9d21d5bc7a98bed9d6827ccc" groups="bsl,kv">
+  <project name="tlm" revision="854ec55e44f7d31a9d21d5bc7a98bed9d6827ccc" groups="bsl,kv">
     <copyfile src="Build.sh" dest="Build.sh" />
     <copyfile src="GNUmakefile" dest="GNUmakefile" />
     <copyfile src="Makefile" dest="Makefile" />
