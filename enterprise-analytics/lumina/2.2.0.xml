@@ -4,7 +4,6 @@
   <remote name="couchbase-priv" fetch="ssh://git@github.com/couchbase/" review="review.couchbase.org" />
   <remote name="couchbasedeps" fetch="https://github.com/couchbasedeps/" review="review.couchbase.org" />
   <remote name="couchbaselabs" fetch="https://github.com/couchbaselabs/" review="review.couchbase.org" />
-  <remote name="mblow" fetch="https://github.com/mblow/" />
 
   <default remote="couchbase" revision="master" />
 
@@ -46,7 +45,7 @@
   <project name="kv_engine" revision="68b298574f64cc772d35a6249591ca4ca281602d" groups="kv,bsl" />
   <project name="libcouchbase" revision="c5480c4e3c66603326b703e95864c9bf87e6c151" />
   <project name="magma" remote="couchbase-priv" revision="92df7217c6e4548357e23a58cdeda6c9d798969b" groups="notdefault,enterprise,kv_ee" />
-  <project name="ns_server" remote="mblow" revision="ef8d202e7bedbc52ef25240adeaaf392c0db1e9f" groups="bsl" />
+  <project name="ns_server" revision="ef8d202e7bedbc52ef25240adeaaf392c0db1e9f" groups="bsl" />
   <project name="phosphor" revision="df9f5319f138bbf973f98b8180c80f3c5f95a9d1" groups="bsl,kv" />
   <project name="platform" revision="31a94f3d539f0759c1d08597bcfea31516f996e3" groups="bsl,kv" />
   <project name="product-metadata" revision="60bf487bc364428047fabb77c8d13e94279daa97" upstream="master" dest-branch="master" groups="notdefault,packaging" />

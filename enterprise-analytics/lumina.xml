@@ -1,7 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote name="mblow" fetch="https://github.com/mblow/"/>
-
   <include name="enterprise-analytics/base-manifest_lumina.xml"/>
 
   <!-- Pick up Analytics projects from master & phoenix branches -->
@@ -28,7 +26,7 @@
   <extend-project name="tlm" revision="854ec55e44f7d31a9d21d5bc7a98bed9d6827ccc"/>
 
   <!-- MB-71811: pick up ns_server fork w/ fix -->
-  <extend-project name="ns_server" remote="mblow" revision="ef8d202e7bedbc52ef25240adeaaf392c0db1e9f"/>
+  <extend-project name="ns_server" revision="lumina"/>
 
   <!-- Update build project to provide different annotations -->
   <remove-project name="build"/>
