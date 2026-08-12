@@ -42,8 +42,8 @@
   <project name="phosphor" revision="df9f5319f138bbf973f98b8180c80f3c5f95a9d1" groups="bsl,kv"/>
   <project name="platform" revision="d62aa33a0288e7dd75f7ec0d417eda8e48d8923d" groups="bsl,kv"/>
   <project name="product-texts"/>
-  <project name="query-ee" revision="5ce0cfcc5ba0812964f07d7aaf5fafcd1b2f7bc8" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
-  <project name="query" revision="108e2d8277228eeb56be0e325e592044c3374e43" path="goproj/src/github.com/couchbase/query" groups="bsl"/>
+  <project name="query-ee" revision="8.0.3" path="goproj/src/github.com/couchbase/query-ee" remote="couchbase-priv" groups="notdefault,enterprise"/>
+  <project name="query" revision="8.0.3" path="goproj/src/github.com/couchbase/query" groups="bsl"/>
   <project name="query-ui" revision="c9d088658df5a92ca30c847edd7c4f92821a803e" groups="bsl"/>
   <project name="regulator" revision="7fe2b38839433efb3ea3530ece7ba16ebcd15f7a" path="goproj/src/github.com/couchbase/regulator" remote="couchbase-priv" groups="notdefault,enterprise"/>
   <project name="sigar" revision="b1718d5c99a2bd37d97fe2c96eb0fd33a06461af" groups="kv"/>
