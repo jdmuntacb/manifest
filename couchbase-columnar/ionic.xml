@@ -6,18 +6,29 @@
   <!-- Pick up Analytics projects from ionic/master branches -->
   <extend-project name="cbas-core" revision="ionic" />
   <extend-project name="asterixdb" revision="ionic" />
-  <extend-project name="analytics-dcp-client" revision="ac51c5858ac0453fa10ff6695cdbdb8c780b7d45" />
-  <extend-project name="cbas" revision="0c8ecc6ef33cc10b3aa5df9dda4fc80d69b15f79" />
+  <extend-project name="analytics-dcp-client" revision="ionic" />
+  <extend-project name="cbas" revision="ionic" />
   <extend-project name="cbas-ui" revision="011d6a502cfb84af4a64bb1ca198e28daa375de9" />
+
+  <extend-project name="regulator" revision="54ca6af1f3f0fd83fb684417b23c6741a81d31c0" />
+
+  <!-- pick up latest product-texts so we have the most accurate README.txt & licenses -->
+  <extend-project name="product-texts" revision="master" />
+
+  <!-- pick up latest product-metadata so we have the most accurate NOTICE.txt -->
+  <extend-project name="product-metadata" revision="master" />
+
+  <!-- per ceej, we should pick up the latest golang project -->
+  <extend-project name="golang" revision="main" />
 
   <!-- Replace build repo to provide different annotations -->
   <!-- Don't use just extend-project as that leaves in other annotations -->
   <!-- from the parent, such as BSL stuff -->
   <remove-project name="build"/>
-  <project name="build" path="cbbuild" groups="notdefault,build" revision="2beb97fb2e69a8f661d27821e77282dd1426d26a">
-    <annotation name="VERSION" value="1.1.0"     keep="true"/>
-    <annotation name="SERVER_VERSION" value="7.6.4"     keep="true"/>
-    <annotation name="SERVER_BLD_NUM" value="5146"     keep="true"/>
+  <project name="build" path="cbbuild" groups="notdefault,build" revision="86d8fdd68842f94d1c61db36c10fe0cd1e75e85f">
+    <annotation name="VERSION" value="1.1.2"     keep="true"/>
+    <annotation name="SERVER_VERSION" value="7.6.6"     keep="true"/>
+    <annotation name="SERVER_BLD_NUM" value="6129"     keep="true"/>
     <annotation name="SERVER_RELEASE" value="trinity"     keep="true"/>
     <annotation name="COLUMNAR" value="true"     keep="true"/>
   </project>

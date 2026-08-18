@@ -22,7 +22,7 @@
   <project name="docloader" path="goproj/src/github.com/couchbase/docloader" revision="2e6af0c097c8bb98a596cbc81cdf6e169ae5b3cc"/>
   <!-- forestdb uses "cb-master" branch in place of "master" for all production builds. -->
   <!-- Future release-specific git branches, if necessary, should be made from cb-master. -->
-  <project name="forestdb" revision="48c31dcb979ca7e152c2db570af49149c6d3e2a7" groups="backup"/>
+  <project name="forestdb" revision="neo" groups="backup"/>
   <project name="geocouch" revision="68f3b9d36630682d17ca5232770f1693b9b8fa18"/>
   <project name="goxdcr" path="goproj/src/github.com/couchbase/goxdcr" groups="bsl" revision="neo"/>
   <project name="gometa" revision="neo" path="goproj/src/github.com/couchbase/gometa"/>
@@ -98,7 +98,7 @@
   <project name="mmap-go" remote="couchbasedeps" revision="935e0e8a636ca4ba70b713f3e38a19e1b77739e8" path="godeps/src/github.com/edsrzf/mmap-go"/>
   <project name="mousetrap" remote="couchbasedeps" revision="76626ae9c91c4f2a10f34cad8ce83ea42c93bb75" path="godeps/src/github.com/inconshreveable/mousetrap"/>
   <project name="pkcs8" remote="couchbasedeps" revision="refs/tags/v1.1" path="godeps/src/github.com/youmark/pkcs8"/>
-  <project name="flatbuffers" remote="couchbasedeps" revision="1a8968225130caeddd16e227678e6f8af1926303" path="godeps/src/github.com/google/flatbuffers"/>
+  <project name="flatbuffers" remote="couchbasedeps" revision="refs/tags/v24.3.25" path="godeps/src/github.com/google/flatbuffers"/>
   <project name="cobra" remote="couchbasedeps" revision="0f056af21f5f368e5b0646079d0094a2c64150f7" path="godeps/src/github.com/spf13/cobra"/>
   <project name="pflag" remote="couchbasedeps" revision="a232f6d9f87afaaa08bafaff5da685f974b83313" path="godeps/src/github.com/spf13/pflag"/>
   <project name="errors" remote="couchbasedeps" revision="30136e27e2ac8d167177e8a583aa4c3fea5be833" path="godeps/src/github.com/pkg/errors"/>
@@ -112,7 +112,7 @@
 
   <!-- Couchbase internal build infrastructure -->
   <project name="build" revision="d8a9c878b2a7ae1bb8354d54c05a386b7ffd76a7" path="cbbuild" groups="notdefault,build">
-    <annotation name="VERSION" value="7.2.8" keep="true"/>
+    <annotation name="VERSION" value="7.2.10" keep="true"/>
     <annotation name="BSL_PRODUCT" value="Couchbase Server" keep="true"/>
     <annotation name="BSL_VERSION" value="7.2" keep="true"/>
     <annotation name="BSL_CHANGE_DATE" value="February 1, 2029" keep="true"/>
